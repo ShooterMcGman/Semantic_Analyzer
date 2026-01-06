@@ -1,0 +1,10 @@
+{
+    "chunks": [
+        {
+            "text": "[S-105|01/01 10:00] Scott: I am starting the server."
+        },
+        {
+            "text": "[S-106|01/01 10:05] Meredith: <node><id>per_meredith</id><label>Meredith</label><type>PERSON</node> <edge><source>per_meredith</source><target>topic_broken_tag</target><relation>FIXES</relation><weight>10</weight></edge> <edge><source>per_meredith</source><target>topic_missing_node</target><relation>CREATES_STUB</relation><weight>5</weight></edge> <node><id>topic_broken_tag</id><label>Broken Tag</label><type>TOPIC</type></node> <!-- Malformed Target below --> <edge><source>per_meredith</source><target>topic_bad_closing</source><relation>TESTS_REPAIR</relation><weight>8</weight></edge> <node><id>topic_bad_closing</id><label>Bad Closing</label><type>TOPIC</type></node>"
+        }
+    ]
+}

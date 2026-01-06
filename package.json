@@ -1,0 +1,17 @@
+{
+  "name": "semantic-analyzer",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "web:dev": "npm run dev --workspace=@semantic-analyzer/web",
+    "web:build": "npm run build --workspace=@semantic-analyzer/web",
+    "api:dev": "npm run dev --workspace=@semantic-analyzer/api",
+    "api:build": "npm run build --workspace=@semantic-analyzer/api",
+    "dev": "concurrently \"npm run api:dev\" \"npm run web:dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

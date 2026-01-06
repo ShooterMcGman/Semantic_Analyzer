@@ -1,0 +1,16 @@
+{
+    "chunks": [
+        {
+            "text": "[S-101|01/01 09:00] Scott: I am feeling very stressed about the upcoming deadline. The divorce proceedings are simpler than this RAG system."
+        },
+        {
+            "text": "[S-102|01/01 09:05] Meredith: Focus on the graph provenance. It's the key to auditability. If we fail, the system is useless."
+        },
+        {
+            "text": "[S-103|01/01 09:10] Scott: You are right. I will implement the node stubs. It reminds me of how we used to build things together."
+        },
+        {
+            "text": "[S-104|01/01 09:15] Meredith: Let's not get nostalgic. Just fix the edge weights."
+        }
+    ]
+}
